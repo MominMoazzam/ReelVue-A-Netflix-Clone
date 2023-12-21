@@ -1,0 +1,389 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./banner.jpg);
+    background-repeat: no-repeat;
+    height: 40vh;
+
+    background-color: black;
+    background-size: cover;
+}
+
+#cont {
+    /* background-color: rgba(0, 0, 0, 0.55); */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left img {
+    padding-left: 9rem;
+    width: 11rem;
+    padding-top: 1rem;
+}
+
+#right {
+    padding-top: 3rem;
+    padding-right: 9rem;
+}
+
+#right #lang {
+    width: 7rem;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.644);
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+#signup {
+    width: 5rem;
+    height: 50%;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* css of section */
+
+#container {
+    width: 80%;
+    margin: auto;
+    margin-top: auto;
+    text-align: center;
+    height: 17rem;
+    margin-top: 7rem;
+}
+
+#price h1 {
+    font-size: 3rem;
+    margin: 0px;
+    font-weight: revert;
+    color: white
+}
+
+#container #price p {
+    font-size: 2rem;
+    margin: 0px;
+    margin-top: 0px;
+    margin-top: 1rem;
+    color: white;
+}
+
+#container #membership h1 {
+    font-size: 1.4rem;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+#container #membership #email {
+    width: 36%;
+    height: 3.2rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #000000d0;
+    color: white;
+    font-size: 1rem;
+    border: 1px solid white;
+}
+
+#container #membership button {
+    width: 19%;
+    height: 3.5rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.4rem;
+}
+
+#tv {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    margin-top: 15rem;
+    background-color: black;
+    border-top: 10px solid #232323;
+}
+
+#tvleft {
+    width: 50%;
+    margin-left: 10rem;
+}
+
+#tvleft h1 {
+    font-size: 2.5rem;
+}
+
+#tvleft p {
+    font-size: 1.5rem;
+}
+
+#tvright {
+    width: 50%;
+}
+
+#tvright img {
+    width: 100%;
+    position: relative;
+    /* for z index we have to change the position */
+    z-index: 1;
+}
+
+#tvright video {
+    position: absolute;
+    width: 40%;
+    /* for x axis we go for left,right property */
+    left: 56%;
+    /* for y axis we go for top,bottom property */
+    top: 20%;
+}
+
+#mobile {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: black;
+    border-top: 10px solid #232323;
+    margin-top: 2rem;
+    padding-top: 7rem;
+
+}
+
+#mobleft {
+    width: 50%;
+    margin-left: 10rem;
+}
+
+#mobleft img {
+    width: 75%;
+}
+
+#mobright {
+    width: 50%;
+    margin-right: 10rem;
+}
+
+#mobright h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+#mobright p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#secondtv {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-top: 10px solid #232323;
+    margin-top: 2rem;
+    padding-top: 7rem;
+
+}
+
+#secondtvleft {
+    width: 50%;
+    margin-left: 12rem;
+}
+
+#secondtvleft h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+#secondtvleft p {
+    font-size: 1.5rem;
+    color: white;
+}
+
+#secondtvright {
+    width: 50%;
+}
+
+#secondtvright img {
+    width: 80%;
+    position: relative;
+    z-index: 1;
+}
+
+#secondtvright video {
+    position: absolute;
+    width: 21%;
+    top: 27%;
+    left: 63%;
+}
+
+#children {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-top: 10px solid #232323;
+    padding-top: 3rem;
+    margin-top: 2rem;
+}
+
+#leftchild {
+    width: 50%;
+}
+
+#leftchild img {
+    width: 70%;
+    margin-left: 10rem;
+}
+
+#rightchild {
+    width: 50%;
+}
+
+#rightchild h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: white;
+}
+
+#rightchild p {
+    font-size: 1.7rem;
+    margin-top: 17px;
+    color: white;
+}
+
+#query {
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 3rem;
+    border-top: 10px solid #232323;
+}
+
+#query h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+#question {
+    width: 80%;
+    margin: auto;
+}
+
+#question button {
+    width: 100%;
+    text-align: start;
+    height: 5rem;
+    border: none;
+    margin-bottom: 9px;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+#question button:hover{
+    background-color: black;
+}
+
+#query h3 {
+    font-size: 1.3rem;
+    position: relative;
+    color: white;
+}
+
+#query #userinput {
+    margin-bottom: 2rem;
+}
+
+#query #email {
+    width: 21rem;
+    height: 3rem;
+    font-size: 1rem;
+    margin-bottom: 2px;
+    margin-right: 16rem;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+#query #start {
+    width: 13rem;
+    position: absolute;
+    margin-left: -15rem;
+    height: 3.4rem;
+    font-size: 1.6rem;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: 2px;
+}
+
+#footer{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    border-top: 10px solid #232323;
+    background-color: black;
+}
+
+#content{
+    width: 80%;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#content p{
+    margin-left: 2.3rem;
+    margin-bottom: 0;
+    color: #a6a6a6;
+    font-size: 1.5rem;
+}
+
+#content #mid{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 2rem;
+    color: #a6a6a6;
+}
+
+a{
+    color: #a6a6a6;
+}
+
+#lang2{
+    margin-left: 2.3rem;
+    width: 7rem;
+    height: 1.9rem;
+    background-color: black;
+    color:#a6a6a6;
+    border-radius: 5px;
+    border: 2px solid #a6a6a6 ;
+    font-size: 1rem;
+}
+
+h5{
+    margin-left: 2.3rem;
+    font-size: 1rem;
+    color: #a6a6a6;
+}
